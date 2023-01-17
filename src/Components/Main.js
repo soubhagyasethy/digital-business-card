@@ -1,7 +1,11 @@
+
 export default function Main() {
     return(
-        <main>
-            <h1></h1>
+        <main className="main">
+            <h2>About</h2>
+            <p>About section paragraph</p>
+            <h2>Intrests</h2>
+            <p>Intrests section paragraph</p>
         </main>
     )
-}
+};
