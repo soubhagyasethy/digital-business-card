@@ -1,12 +1,11 @@
+import logo from "../Images/sbipophoto.jpg"
+
 
 export default function Header() {
     return(
         <header className="header">
-            <img src="" alt="my profile" />
-            <h1>Name</h1>
-            <h3>Designantion</h3>
-            <a href="/">website</a>
-            <div>Social media link</div>
+            <img className="header-img" src={logo} alt="logo" />
+            
         </header>
     )
 };
