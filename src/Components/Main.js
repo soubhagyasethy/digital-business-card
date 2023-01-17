@@ -5,26 +5,31 @@ export default function Main() {
     return(
         <main className="main">
             <h1>Soubhagya Sethy</h1>
-            <h3>Front-End Developer</h3>
+            <h3>Frontend Developer</h3>
             <a className="website" href="https://soubhagyasethy.netlify.app/" target="_blank" style={{display:"block"}}>
                 soubhagyasethy.website
             </a>
 
-            <div style={{display:"block"}}>
-                <a href="mailto:ssethy017@gmail.com" target="_blank">
+            <div className="contact-button">
+            <button className="email">
+                <a style={{textDecoration:"none", color:"black"}} href="mailto:ssethy017@gmail.com" target="_blank" >
                     <img className="contact-img" src={Email} alt="Email"/>
                     Email
                 </a>
-                <a href="https://www.linkedin.com/in/soubhagya-sethy-3b5404182/" target="_blank">
+            </button>
+            <button className="linkedin">
+                <a style={{textDecoration:"none", color:"white"}} href="https://www.linkedin.com/in/soubhagya-sethy-3b5404182/" target="_blank">
                     <img className="contact-img" src={Linkedin} alt="Linkedin"/>
                     Linkedin
                 </a>
+            </button>   
             </div>
+            
 
-            <h2>About</h2>
-            <p>About section paragraph</p>
-            <h2>Intrests</h2>
-            <p>Intrests section paragraph</p>
+            <h2 className="about">About</h2>
+            <p className="paragraph">I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+            <h2 className="intrests">Intrests</h2>
+            <p className="paragraph">Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
         </main>
     )
 };
