@@ -6,7 +6,7 @@ export default function Main() {
         <main className="main">
             <h1>Soubhagya Sethy</h1>
             <h3>Frontend Developer</h3>
-            <a className="website" href="https://soubhagyasethy.netlify.app/" target="_blank" style={{display:"block"}}>
+            <a className="website" href="https://soubhagyasethy.netlify.app/" style={{display:"block"}}>
                 soubhagyasethy.website
             </a>
 
