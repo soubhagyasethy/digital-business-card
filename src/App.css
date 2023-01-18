@@ -138,7 +138,7 @@ h3 {
     /* or 24px */
     color: #F5F5F5;
     padding: 0 220px 0 0;
-    margin: 15px 0 0 19px;
+    margin: 15px 0 0 21px;
 }
 
 .intrests {
@@ -161,7 +161,7 @@ h3 {
     line-height: 150%;
     color: #DCDCDC;
     text-align: justify;
-    padding: 6px 35px;
+    padding: 6px 34px;
 }
 
 /* style the footer */
@@ -185,21 +185,3 @@ li{
 .twitter {
     padding-right: 0;
 }
-
-
-/* <div className="contact-button">
-            <button className="email">
-                <img className="contact-img" src={Email} alt="Email"/>
-                <a style={{textDecoration:"none", color:"black"}} href="mailto:ssethy017@gmail.com">
-                    
-                    Email
-                </a>
-            </button>
-            <button className="linkedin">
-               <img className="contact-img" src={Linkedin} alt="Linkedin"/>
-                <a style={{textDecoration:"none", color:"white"}} href="https://www.linkedin.com/in/soubhagya-sethy-3b5404182/">
-                
-                    Linkedin
-                </a>
-            </button>   
-            </div> */
