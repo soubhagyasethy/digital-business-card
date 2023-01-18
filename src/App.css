@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 body {
-    background: #23252C;
+    background: #9699a2;
 }
 .App {
     display: flex;
@@ -19,7 +19,11 @@ body {
 .container {
     padding: 60px 0 44px 0;
 }
+
 /* style the header */
+.header {
+    margin-bottom: -5px;
+}
 .header img {
     width: 310px;
     height: 317px;
@@ -82,6 +86,10 @@ h3 {
 }
 
 .email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 115px;
     height: 34px;
     left: 151px;
@@ -91,11 +99,16 @@ h3 {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     margin-right: 8px;
+    font-size: 15px;
 }
 
 .linkedin {
-    padding: 9px 13px 9px 11px;
-    gap: 8px;
+    /* padding: 9px 13px 9px 11px;
+    gap: 8px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 115px;
     height: 34px;
     left: 283px;
@@ -105,8 +118,16 @@ h3 {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     margin-left: 8px;
+    font-size: 15px;
 }
 
+.email-img {
+    margin: 1px 5px 0 0; 
+}
+
+.linkedin-img {
+    margin: 0 5px 0 0;
+}
 
 .about {
     font-family: 'Inter';
@@ -164,3 +185,21 @@ li{
 .twitter {
     padding-right: 0;
 }
+
+
+/* <div className="contact-button">
+            <button className="email">
+                <img className="contact-img" src={Email} alt="Email"/>
+                <a style={{textDecoration:"none", color:"black"}} href="mailto:ssethy017@gmail.com">
+                    
+                    Email
+                </a>
+            </button>
+            <button className="linkedin">
+               <img className="contact-img" src={Linkedin} alt="Linkedin"/>
+                <a style={{textDecoration:"none", color:"white"}} href="https://www.linkedin.com/in/soubhagya-sethy-3b5404182/">
+                
+                    Linkedin
+                </a>
+            </button>   
+            </div> */

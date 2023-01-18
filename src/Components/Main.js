@@ -11,20 +11,15 @@ export default function Main() {
             </a>
 
             <div className="contact-button">
-            <button className="email">
-                <img className="contact-img" src={Email} alt="Email"/>
-                <a style={{textDecoration:"none", color:"black"}} href="mailto:ssethy017@gmail.com">
-                    
-                    Email
-                </a>
-            </button>
-            <button className="linkedin">
-               <img className="contact-img" src={Linkedin} alt="Linkedin"/>
-                <a style={{textDecoration:"none", color:"white"}} href="https://www.linkedin.com/in/soubhagya-sethy-3b5404182/">
-                
-                    Linkedin
-                </a>
-            </button>   
+            <div className="email">
+                <img className="email-img" src={Email} alt="Email"/>
+                <a style={{textDecoration:"none", color:"black"}} href="/">Email</a>
+            </div>
+
+            <div className="linkedin">
+               <img className="linkedin-img" src={Linkedin} alt="Linkedin"/>
+               <a style={{textDecoration:"none", color:"white"}} href="/">Linkedin</a>
+            </div>   
             </div>
             
 
