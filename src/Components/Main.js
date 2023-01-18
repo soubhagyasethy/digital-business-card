@@ -25,7 +25,7 @@ export default function Main() {
 
             <h2 className="about">About</h2>
             <p className="paragraph">I am a frontend developer with a particular interest in making user friendly responsive web apps. I try to keep up with new technologies and best practices, and am always looking for new things to learn.</p>
-            <h2 className="intrests">Intrests</h2>
+            <h2 className="intrests">Interests</h2>
             <p className="paragraph">Movies. Comicbook. Pop culture ninja. Food Expert. Internet fanatic. Travel geek. Coffee fanatic.</p>
         </main>
     )
