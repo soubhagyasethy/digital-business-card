@@ -3,6 +3,7 @@
 body {
     background: #9699a2;
 }
+
 .App {
     display: flex;
     flex-direction: column;
@@ -103,8 +104,6 @@ h3 {
 }
 
 .linkedin {
-    /* padding: 9px 13px 9px 11px;
-    gap: 8px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
