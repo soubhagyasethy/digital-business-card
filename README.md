@@ -1,9 +1,9 @@
 # An awesome digital business card
-App made using create-react-app.  <br>
-Here is the live link: https://soubhagya-business-card.netlify.app/
+- App made using create-react-app.  <br>
+- Here is the live link: https://soubhagya-business-card.netlify.app/
 
 ## Technologies
-HTML, CSS and React.
+- HTML, CSS and React.
 
 ### Cute li'l business card:
 
